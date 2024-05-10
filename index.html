@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/index.css" />
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="weather-app">
+        <header>
+            <form id="search-form">
+                <input
+                type="search"
+                placeholder="Enter a city..."
+                required
+                class="search-input"
+                id="search-input"
+                />
+                <input type="submit" value="search" class="search-button" />
+            </form>
+        </header>
+        <main>
+            <div class="weather-app-data">
+                <div>
+                    <h1 class="current-city" id="city">Bloemfontein</h1>
+                    <p class="current-details">Tuesday 14:49, scattered clouds
+                        <br />
+                        Humidity: 66%, Wind: 3.13km/h
+                    </p>
+                    </div>
+                    <div>☀️ 12°C</div>
+            </div>
+        </main>
+        <footer>
+            <a href="https://github.com/oksanakaur" target ="_blank"> Keolebogile Segoneco</a> code hosted on 
+            <a href="https://github.com/oksanakaur/Vanila-Weather-Search-Project" target ="_blank">GitHub</a> and website hosted on
+            <a href="https://weather-search-engine1.netlify.app/" target ="_blank"> Netlify</a>
+        </footer>
+    </div>
+    
+</body>
+</html>
