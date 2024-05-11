@@ -19,22 +19,26 @@
                 type="search"
                 placeholder="Enter a city..."
                 required
-                class="search-input"
+                class="search-form-input"
                 id="search-input"
                 />
-                <input type="submit" value="search" class="search-button" />
+                <input type="submit" value="search" class="search-form-button" />
             </form>
         </header>
         <main>
             <div class="weather-app-data">
                 <div>
-                    <h1 class="current-city" id="city">Bloemfontein</h1>
-                    <p class="current-details">Tuesday 14:49, scattered clouds
+                    <h1 class="weather-app-city" id="city">Bloemfontein</h1>
+                    <p class="weather-app-details">Tuesday 14:49, scattered clouds
                         <br />
-                        Humidity: 66%, Wind: 3.13km/h
+                        Humidity:<strong>66%</strong> , Wind: <strong>3.13km/h</strong>
                     </p>
                     </div>
-                    <div>☀️ 12°C</div>
+                    <div class="weather-app-temperature-container">
+                    <div class="weather-app-icon">☀️</div>
+                    <div class="weather-app-temperature">12</div>
+                    <div class="weather-app-unit">°C</div> 
+                    </div>
             </div>
         </main>
         <footer>
