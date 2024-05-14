@@ -84,6 +84,26 @@ a {
  font-weight: bold;   
 }
 
+.weather-forecast-container {
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+    display: flex;
+}
+
+.weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.weather-forecast-temperature-min {
+    opacity: 0.5;
+}
+
+.weather-forecast-temperature {
+    font-size: 13px;
+}
+
 footer {
     border-top: 1px solid  rgb(44, 160, 175);
     text-align: center;
